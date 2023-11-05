@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Bible Verse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Qabale Verse Finder</h1>
+
+    <form onsubmit="searchVerse(event)">
+      <input type="text" id="searchInput" placeholder="Enter Bible verse or range (e.g. John 3:16 or John 3:16-17)">
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="verse-container">
+      <p id="verse"></p>
+    </div>
+    <button onclick="getRandomVerse()">Get Verse</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
