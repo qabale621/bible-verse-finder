@@ -42,7 +42,7 @@ This project uses the Bible.org API for retrieving Bible verses.
 
 ## Author
 
-[Your Name]
+[Qabale Halkano]
 
 Feel free to explore and modify this application. Share your experiences and contribute to its enhancement!
 
